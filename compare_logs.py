@@ -17,6 +17,10 @@ args = parser.parse_args()
 client_log = open("client_log.log", "r")
 server_log = open("server_log.log", "r")
 
+#For testing BFG
+test_pass = '***REMOVED***'
+test_pwd = '***REMOVED***'
+
 client_list = [(line.strip()).split() for line in client_log]
 server_list = [(line.strip()).split() for line in server_log]
 
